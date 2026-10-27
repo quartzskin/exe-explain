@@ -1,0 +1,12 @@
+{
+  "name": "exe-explain",
+  "version": "0.1.0",
+  "description": "Static PE explainer where every statement cites extracted evidence",
+  "license": "MIT",
+  "private": true,
+  "bin": { "exe-explain": "bin/exe-explain.js" },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": { "node": ">=22" }
+}
